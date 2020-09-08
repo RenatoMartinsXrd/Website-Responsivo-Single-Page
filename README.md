@@ -10,12 +10,8 @@
   > Ux Design
   
   ![](img/print-desktop.JPG)
-  
-  <img src="https://github.com/RenatoMartinsXrd/Website-Responsivo-Single-Page.github.io/blob/master/img/print-desktop.JPG">
-  
-
-  <img src="https://github.com/RenatoMartinsXrd/Website-Responsivo-Single-Page.github.io/blob/master/img/print-mobile.JPG">
-  <img src="https://github.com/RenatoMartinsXrd/Website-Responsivo-Single-Page.github.io/blob/master/img/print-mobile-2.JPG">
+  ![](img/print-mobile.JPG)
+  ![](img/print-mobile-2.JPG)
 
   
   
