@@ -15,7 +15,6 @@
   
   # Ferramentas utilizadas
   
-  Website desenvolvido
   * HTML
   * CSS3 utilizando flexbox e media queries
   * Javascript
