@@ -1,5 +1,5 @@
 
-  # Website-Responsivo-Single-Page
+  # Website Responsivo Single Page
   
   * Link: https://renatomartinsxrd.github.io/Website-Responsivo-Single-Page.github.io/
   
@@ -12,6 +12,13 @@
   ![](img/print-desktop.JPG)
   ![](img/print-mobile.JPG)
   ![](img/print-mobile-2.JPG)
+  
+  # Ferramentas utilizadas
+  
+  Website desenvolvido
+  * HTML
+  * CSS3 utilizando flexbox e media queries
+  * Javascript
 
   
   
