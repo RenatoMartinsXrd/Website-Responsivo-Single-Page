@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<header class="header-index">
+		<div class="container header-container">
+		<a href="#" class="logo">Logo</a>
+		    <nav>
+            
+
+
+			<ul>
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#sobre">Sobre</a></li>
+				<li><a href="#services">Motivo</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#time">Time</a></li>
+				<li><a href="#contato">Conclusão</a></li>
+			</ul>
+            <div class="toggle" onclick="ativarMenuMobile()"></div>
+			</nav>
+	
+	     </div>
+    </header> 
+
+    <section id="home" class="content-article">
+  
+    		<div class="container-artigo">
+    			<h2>Website Responsivo</h2>
+    			<p>
+    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    			tempor incididunt ut labore et dolore magna aliqua.
+    			</p>
+ 
+    		</div>
+
+    		<img src="img/section-home.jpg">
+    
+    </section>
+
+
+        <section id="sobre" class="content-article">
+  
+    		<div class="container-artigo">
+    			<h2>Sobre</h2>
+    			<p>
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    			tempor incididunt ut labore et dolore magna aliqua.
+    			</p>
+ 
+    		</div>
+
+    
+    </section>
+
+
+            <section id="services" class="content-article">
+  
+    		<div class="container-artigo">
+    			<h2>Nossos Serviços</h2>
+    			<p>
+    				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    			tempor incididunt ut labore et dolore magna aliqua.
+    			</p>
+ 
+    		</div>
+
+    		
+    </section>
+
+
+        <section id="portfolio" class="content-article">
+  
+    		<div class="container-artigo">
+    			<h2>Nossos trabalhos recentes</h2>
+    			<p>
+    			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    			tempor incididunt ut labore et dolore magna aliqua.
+    			</p>
+ 
+    		</div>
+
+    		
+    </section>
+
+
+        <section id="time" class="content-article">
+  
+    		<div class="container-artigo">
+    			<h2>Nossos especialistas</h2>
+    			<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    			tempor incididunt ut labore et dolore magna aliqua.
+    			</p>
+ 
+    		</div>
+
+        </section>
+
+
+        <section id="contato" class="content-article">
+  
+    		<div class="container-artigo">
+    			<h2>Fale conosco</h2>
+    			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    			tempor incididunt ut labore et dolore magna aliqua.
+    			</p>
+ 
+    		</div>
+
+        </section>
+
+        <script type="text/javascript">
+          
+			function ativarMenuMobile(){
+				const header = document.querySelector("header");
+				header.classList.toggle("active");
+			}
+
+			function navegarMenuMobile(){
+				const li = document.querySelectorAll("ul li a");
+				li.forEach((item)=>{
+					item.addEventListener("click",ativarMenuMobile)
+					item.addEventListener("click",(event)=>{
+						li.forEach((item)=>{
+							item.classList.remove("active")
+						})
+						event.currentTarget.classList.toggle("active");
+					})
+				})
+			}
+			navegarMenuMobile();
+        </script>
+</body>
+
+</html>
