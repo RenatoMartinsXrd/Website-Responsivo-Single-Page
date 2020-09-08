@@ -1,7 +1,7 @@
 
   # Website-Responsivo-Single-Page
   
-  *Link: https://renatomartinsxrd.github.io/Website-Responsivo-Single-Page.github.io/
+  * Link: https://renatomartinsxrd.github.io/Website-Responsivo-Single-Page.github.io/
   
   > Website responsivo
   
@@ -9,7 +9,7 @@
   
   > Ux Design
   
- 
+  ![](img/print-desktop.JPG)
   
   <img src="https://github.com/RenatoMartinsXrd/Website-Responsivo-Single-Page.github.io/blob/master/img/print-desktop.JPG">
   
