@@ -3,9 +3,9 @@
   
   > Website responsivo
   
-  *Navegação em uma página
+  * Navegação em uma página
   
-  *Ux Design
+  * Ux Design
   
   Link: https://renatomartinsxrd.github.io/Website-Responsivo-Single-Page.github.io/
   
