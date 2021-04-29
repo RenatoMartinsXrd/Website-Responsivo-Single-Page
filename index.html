@@ -3,6 +3,7 @@
 <head>
 	<title></title>
 	<meta charset="utf-8">
+	<meta http-equiv="Content-Language" content="pt-br">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -24,7 +25,6 @@
 				<li><a href="#services">Serviços</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
 				<li><a href="#time">Time</a></li>
-				<li><a href="#contato">Contato</a></li>
 			</ul>
             <div class="toggle" onclick="ativarMenuMobile()"></div>
 			</nav>
@@ -96,25 +96,13 @@
         <section id="time" class="content-article">
   
     		<div class="container-artigo">
-    			<h2>Nossos especialistas</h2>
-    			<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    			tempor incididunt ut labore et dolore magna aliqua.
-    			</p>
- 
-    		</div>
-
-        </section>
-
-
-        <section id="contato" class="content-article">
-  
-    		<div class="container-artigo">
-    			<h2>Fale conosco</h2>
-    			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    			tempor incididunt ut labore et dolore magna aliqua.
-    			</p>
+    			<h2>Fale Conosco</h2>
+    			<form id="formContato">
+					<input type="text" name="nome" placeholder="nome">
+					<input type="text" name="email" placeholder="email">
+					<textarea name="mensagem" placeholder="mensagem"></textarea>
+					<input id="envie" type="submit" value="Enviar">
+				</form>
  
     		</div>
 

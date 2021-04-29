@@ -166,6 +166,35 @@ img{
 	max-width: 800px;
 	max-height: 400px;
 }
+
+#formContato * {
+	margin-top: 10px;
+}
+
+#formContato textarea{
+	height: 10rem;
+}
+
+#envie{
+	background-color: #000;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 6px;
+}
+
+#envie:hover{
+	background-color: #205aff;
+	/* color: #000; */
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    width: 100%;
+}
+
 @media only screen and (max-width: 992px) {
 	section.content-article div.container-artigo h2{
 		font-size: 2em;
